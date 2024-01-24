@@ -1,0 +1,31 @@
+
+#contact {
+    padding-top: 90px;
+    background-color: #edfead;
+}
+
+.contactdiv {
+    margin-left: 220px;
+    padding-bottom: 100px;
+}
+
+.contactdiv>h1 {
+    margin-top: 0;
+    padding-top: 10px;
+    font-family: 'MontBlanc';
+}
+
+.contactdiv__form {
+    background: linear-gradient(-45deg, rgba(63, 151, 192, 0.5), rgba(70, 192, 131, 0.5));
+    border-radius: 10px;
+    box-shadow: 11px 10px 48px -20px rgba(0, 0, 0, 0.81);
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik';
+    width: 70%;
+    margin: 40px auto;
+}
+
+.contactdiv__form div {
+    margin: 20px 0;
+}

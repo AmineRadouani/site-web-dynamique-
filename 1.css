@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+/* header{
+
+    position: relative;
+    background: url('g.gif') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    height: 15px; 
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);} */
+nav {
+    max-width: 100%;
+    max-height: 20%;
+    height: 50px; 
+    /* mask-image: linear-gradient(90deg,     rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);  */
+    margin: 0 0 ;
+    background: url('g.gif') center/cover;
+    
+  }
+
+
+
+nav ul {
+    text-align: center;
+    margin: 0;
+    background: linear-gradient(90deg, rgb(255 0 13 / 89%) 0%, rgb(252 0 12 / 38%) 25%, rgb(0 255 20 / 38%) 75%, rgb(0 255 55 / 38%)00%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    padding: 18px;
+    font-family: "Open Sans";
+    text-transform:uppercase;
+    color:  #ffffff91;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: linear-gradient(90deg, rgb(255 0 13 / 89%) 0%, rgb(252 0 12 / 38%) 25%, rgb(0 255 20 / 38%) 75%, rgb(0 255 55 / 38%)00%);
+    color: rgba(255, 255, 255, 0.7)
+  }
+  
+  
+
+ #video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% de la hauteur de la vue */
+}
+ 
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+} 
+
+#content { 
+   display: flexbox;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        height: 107%; /* Ajustez la largeur selon vos besoins */
+        max-width: 100%; /* Ajustez la largeur maximale selon vos besoins */
+        padding: 20px; /* Ajustez le rembourrage selon vos besoins */
+        /* box-sizing: border-box; Assurez-vous que la largeur inclut le rembourrage */
+    } 
+
+#content #img1 {
+    /* position:sticky; */
+    height:150px;
+  /* margin-top: 0%; */
+    top: 50%;
+    left: 50%;
+}
+
+ .body{
+        height: 15%;
+        width: 20%;
+    position: relative;
+    top: 2%;
+        left: 5%;
+  }
+  footer {
+    background-color: maroon;
+    color: white; /* Puedes ajustar el color del texto según tus preferencias */
+    padding: 20px; /* Ajusta el relleno según tus necesidades */
+    text-align: center; /* Alinea el contenido al centro si es necesario */
+  }
+#myModal5{height: 300px;
+width: 300px;position: absolute;
+top: 43px;
+    left: 927px;}
+  
+  
+  .button-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .glass-btn {
+    width: 100px;
+    height: 100px;
+    background-color: #f5efef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin-left: 1em;
+    margin-right: 1em;  
+    cursor: pointer;
+    transition: all 0.3s;
+  
+    &.blue-btn {
+      -webkit-box-shadow: 0px 20px 20px -17px rgba(0, 111, 255, 0.53);
+      -moz-box-shadow: 0px 20px 20px -17px rgba(0, 111, 255, 0.53);
+      box-shadow: 0px 20px 20px -17px rgba(0, 111, 255, 0.53);
+  
+      &:hover {
+        -webkit-box-shadow: 0px 20px 35px -16px rgba(0, 111, 255, 0.65);
+        -moz-box-shadow: 0px 20px 35px -16px rgba(0, 111, 255, 0.65);
+        box-shadow: 0px 20px 35px -16px rgba(0, 111, 255, 0.65);      
+      }
+  
+      .content {
+        font-size: 4em;
+        font-family: "Roboto", sans-serif;
+        background: linear-gradient(to right, #006fff, #00acff 70%);
+        
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0px 10px 37px rgba(0, 111, 255, 0.8);
+      }
+    }
+  
+    &.red-btn {
+      -webkit-box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+      -moz-box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+      box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+  
+      &:hover {
+        -webkit-box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);
+        -moz-box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);
+        box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);      
+      }
+  
+      .content {
+        font-size: 4em;
+        font-family: "Roboto", sans-serif;
+        background: linear-gradient(to right, #ff1027, #ff4f06 70%);
+        
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0px 10px 37px rgba(255, 16, 39, 0.6);
+      }
+    }
+  
+    &.amber-btn {
+      -webkit-box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
+      -moz-box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
+      box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
+  
+      &:hover {
+        -webkit-box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);
+        -moz-box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);
+        box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);      
+      }
+  
+      .content {
+        font-size: 4em;
+        font-family: "Roboto", sans-serif;
+        background: linear-gradient(to right, #ff8d00, #f7ad07 70%);
+       
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0px 10px 37px rgba(255, 94, 16, 0.7);
+      }
+    }
+  
+    &:hover {
+      background-color: darken(#f71d1d, 2%);    
+      transform: translateY(-5px);
+      transition: all 0.3s;
+    }
+  }
+  #newsletter {
+    position: absolute;
+height: 120px;
+width: 400px;
+    text-align: center;
+    z-index: 1;  
+      top: 100px;
+    left: 700px;
+}
+
+#newsletter form {
+    margin-top: 10px;
+    z-index: 1;
+}
+
+#newsletter label {
+    margin-right: 5px;
+    z-index: 1;
+
+
+
+
+     
+
+
+
+
+
+  
+
+    
+}
+
+
+
+ 
+
+#whoami {
+  padding-top: 90px;
+  /* background-color: #fee8c8; Couleur sable */
+}
+
+.whoamidiv {
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+
+.whoamidiv > h1 {
+  margin-top: 0;
+  padding-top: 10px;
+  font-family: 'Times New Roman', serif; /* Police de caractères élégante */
+  color: #c92c2c; 
+}
+
+.whoami__desc {
+  width: 98.5%;
+  height: 350px;
+  background: rgba(173, 106, 18, 0.5); /* Fond semi-transparent rouge marocain */
+  display: flex;
+  align-items: center;
+  border-radius: 180px;
+  margin-top: 10px;
+}
+
+.whoami__img {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  margin-left: 40px;
+  border: 10px solid #fdc065; /* Bordure sable */
+} 
+  
+
+.MontBlanc-font {
+  position: absolute;
+  top: auto;
+    left: 500PX;
+  font-family: 'MontBlanc', sans-serif;
+  font-size: 22px;
+  color: #333; /* Couleur de texte par défaut */
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.MontBlanc-font p {
+  margin-bottom: -10px; /* Marge basse pour les paragraphes à l'intérieur de MontBlanc-font */
+}
+
+
+.MontBlanc-font P:hover {
+  font-size: 30px; 
+  color: #c92c2c;/* Souligner le lien au survol */
+}
+
+
+
+#plan {
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background-color: rgba(173, 106, 18, 0.5);
+}
+
+.image {
+  position: relative;
+  width: 400px;
+  border-radius: 80px;
+}
+
+.image__img {
+  display: block;
+  width: 100%;  border-radius: 80px;
+}
+
+.image__overlay {
+  position: absolute;
+  border-radius: 80px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'MontBlanc';
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay>* {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.image__overlay:hover>* {
+  transform: translateY(0);
+}
+
+.image__overlay>h1 {
+  font-family: 'MontBlanc';
+}
+
+.links {
+  padding-left: 80px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
